@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: lancelot-backend
+    env: docker
+    rootDir: backend
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: ALLOWED_ORIGINS
+        value: "https://lancelot-frontend.onrender.com" # Default placeholder for your frontend
