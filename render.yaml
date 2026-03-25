@@ -6,4 +6,4 @@ services:
     dockerfilePath: Dockerfile
     envVars:
       - key: ALLOWED_ORIGINS
-        value: "https://lancelot-frontend.onrender.com" # Default placeholder for your frontend
+        value: "https://lancelot-extractor-tablas-pdf.onrender.com" # Default placeholder for your frontend
